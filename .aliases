@@ -1,0 +1,8 @@
+alias gpom="git push origin master"
+alias gpr="git pull --rebase"
+alias gpum="git pull origin master"
+alias gpu="git pull"
+alias gp="git push"
+alias gc="git commit"
+alias gca="git commit --amend"
+alias gcl="git clone"
