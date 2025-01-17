@@ -1,7 +1,8 @@
-if [ -f ~/.zshrc ]; then
-    cat ./.aliases >> ~/.zshrc
-fi
+# isntall zsh
+sudo apt-get update
+sudo apt-get install -y git curl
 
-if [ -f ~/.bashrc ]; then
-    cat ./.aliases >> ~/.bashrc
+# install zsh only when not installed
+if ! command -v zsh &> /dev/null; then
+    sh install_zsh.sh
 fi
