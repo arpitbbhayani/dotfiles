@@ -6,5 +6,6 @@ if hostnamectl | grep -q "speedster"; then
     sudo hostnamectl set-hostname speedster
 fi
 
+sh install_essesntials.sh
 sh install_zsh.sh
 sh install_go.sh
