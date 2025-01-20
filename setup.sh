@@ -9,3 +9,4 @@ fi
 sh install_essesntials.sh
 sh install_zsh.sh
 sh install_go.sh
+sh install_node.sh
