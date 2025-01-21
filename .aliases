@@ -1,2 +1,5 @@
 alias gpom="git push origin master"
 alias gd="git diff"
+alias ga="git add --all"
+alias gc="git commit -m"
+alias gp="git push origin"
