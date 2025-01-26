@@ -13,3 +13,6 @@ echo 'export GOBIN=$GOPATH/bin' >> ~/.bashrc
 echo 'export PATH=$PATH:$GOBIN' >> ~/.bashrc
 
 sudo curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sudo sh -s -- -b /bin v1.60.1
+
+sudo apt-get install -y protobuf-compiler
+go install google.golang.org/protobuf/cmd/protoc-gen-go@latest
