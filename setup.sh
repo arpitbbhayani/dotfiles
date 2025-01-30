@@ -11,3 +11,4 @@ sh install_zsh.sh
 sh install_go.sh
 sh install_node.sh
 sh install_python.sh
+sh install_github.sh
