@@ -13,3 +13,4 @@ sh install_node.sh
 sh install_python.sh
 sh install_github.sh
 sh install_ffmpeg.sh
+sh install_gcc.sh
