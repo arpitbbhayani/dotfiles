@@ -1,4 +1,4 @@
-INSTALL_GO_VERSION="1.24.0"
+INSTALL_GO_VERSION="1.24.1"
 
 if command -v go &> /dev/null && go version | grep -q "go$INSTALL_GO_VERSION"; then
     exit 0
