@@ -14,3 +14,6 @@ sh install_python.sh
 sh install_github.sh
 sh install_ffmpeg.sh
 sh install_gcc.sh
+sh install_llm_cli.sh
+sh install_awscli.sh
+sh install_aliases.sh
