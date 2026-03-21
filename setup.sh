@@ -17,3 +17,4 @@ sh install_gcc.sh
 sh install_llm_cli.sh
 sh install_awscli.sh
 sh install_aliases.sh
+sh install_neovim.sh
